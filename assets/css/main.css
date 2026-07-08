@@ -678,7 +678,7 @@ svg {
   color: #000000;
 }
 
-.highlight pre code[class*="language-zig"]::before {
+.highlight pre code[class*="language-gleam"]::before {
   content: "gleam";
   background: #ffaff3;
   color: #000000;
