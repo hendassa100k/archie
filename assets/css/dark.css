@@ -45,12 +45,29 @@ h6 {
   color: var(--color-text-muted-dark, #dddddd);
 }
 
-h1::before { color: var(--color-primary-dark, #50fa7b); }
-h2::before { color: var(--color-primary-dark, #50fa7b); }
-h3::before { color: var(--color-primary-dark, #50fa7b); }
-h4::before { color: var(--color-primary-dark, #50fa7b); }
-h5::before { color: var(--color-primary-dark, #50fa7b); }
-h6::before { color: var(--color-primary-dark, #50fa7b); }
+h1::before {
+  color: var(--color-primary-dark, #50fa7b);
+}
+
+h2::before {
+  color: var(--color-primary-dark, #50fa7b);
+}
+
+h3::before {
+  color: var(--color-primary-dark, #50fa7b);
+}
+
+h4::before {
+  color: var(--color-primary-dark, #50fa7b);
+}
+
+h5::before {
+  color: var(--color-primary-dark, #50fa7b);
+}
+
+h6::before {
+  color: var(--color-primary-dark, #50fa7b);
+}
 
 .toc {
   background-color: var(--color-background-toc-dark, #272822);
@@ -143,6 +160,7 @@ table tr:nth-child(even) {
   color: #000000;
   outline-color: var(--color-primary-dark, #50fa7b);
 }
+
 /* Language badges inherit from main.css - no duplicates needed */
 
 /* Callouts in dark mode */
